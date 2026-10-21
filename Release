@@ -6,13 +6,13 @@ Codename: jfkf
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: jfkf personal jailbreak repo (roothide, iOS 15.4)
-Date: Wed, 21 Oct 2026 15:01:45 UTC
+Date: Wed, 21 Oct 2026 15:15:22 UTC
 MD5Sum:
- 82f3bb06b16b376305544102c8e022b6             2188 Packages
- af3471479e7b2f0f45014e4f7a4184da              1046 Packages.gz
+ 4d1d6e2adeace9aad4ccb29a2862b718             4265 Packages
+ d571bd7d0066927c6859a17c79b2ffc3              1871 Packages.gz
 SHA1:
- 5df5c8017ef4dd867332c95742b8084a36ac7075             2188 Packages
- d8d88e6b4f95e3751d895b72d7a341ea8efbefd7              1046 Packages.gz
+ 1bf9aed96d92d9da851c25a4c9c00a24036a4650             4265 Packages
+ c15cbbf674f08d38eb6f365e8a61d411978e25ef              1871 Packages.gz
 SHA256:
- 23e2e163193ba23054f9b082472248a7170c0f97d2a6c7fc562633c4fe4d4f73             2188 Packages
- 4278c452cca1da75842226bb7a4b39b7d70c7659049c2032d7a750efa693c940              1046 Packages.gz
+ 38790236577c8dca9068707e00305e340735f175256cfd7105e9c1f33695f99f             4265 Packages
+ 8e3fb781402d3ee2c4596fc23c9d302a2f350945f51e95958eaa7ad306a75989              1871 Packages.gz
