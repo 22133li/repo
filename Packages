@@ -29,3 +29,36 @@ Size: 44270
 MD5sum: fef594db45a0854ef2b5f95ae2c2770f
 SHA1: dd9319fc677027d53a3bb6c1458f0b33915a7fb6
 SHA256: 3a1bf9e19413a0be2ac5679fd373b457834ba9cb49c9ae90b0b82f5dbfd1f71e
+
+Package: com.hx.120
+Name: MotionX
+Depends: mobilesubstrate
+Description: 满血120赫兹、qq172942805
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.2
+Installed-Size: 72
+Filename: ./com.hx.120_2.2_iphoneos-arm64e.deb
+Size: 6020
+MD5sum: f8cdf665bf45e46a18f377da3d456b1c
+SHA1: 4d49b0a1f54f82b6f81809fdaf5bdabe584970ce
+SHA256: 9cc469193bf5e8f5b73fbf21ce4f0c2d2036dbccc6e7040f9dd56f1f79c797fb
+
+Package: com.hx.120
+Name: MotionX
+Depends: mobilesubstrate
+Description: 满血120赫兹、感谢L资助
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 72
+Filename: ./com.hx.120_2.3_iphoneos-arm64e.deb
+Size: 5996
+MD5sum: 55927eebe25a21693fd99bf2a0f288c9
+SHA1: e8d3d2c82d18c4d1bdc0dae3c860637e10778df6
+SHA256: 262241085bd474b84689de430515a1cf82e398a64db87f10ca2feb4212102deb
+
