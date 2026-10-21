@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jfkf Repo</title>
+<style>body{font-family:-apple-system,sans-serif;margin:40px auto;max-width:560px;padding:0 16px;color:#111}h1{font-size:24px}.btn{display:block;text-align:center;padding:14px;margin:12px 0;border-radius:12px;background:#0a84ff;color:#fff;text-decoration:none;font-size:17px}.alt{background:#34c759}code{background:#eee;padding:2px 6px;border-radius:6px;word-break:break-all}</style>
+</head>
+<body>
+<h1>jfkf 的越狱源</h1>
+<p>roothide / iOS 15.4 个人源。源地址：<code id="url"></code></p>
+<a class="btn" id="sileo" href="#">添加到 Sileo</a>
+<a class="btn alt" id="cydia" href="#">添加到 Cydia</a>
+<a class="btn alt" id="zebra" href="#" style="background:#8e8e93">添加到 Zebra</a>
+<script>
+var u = location.href.split('#')[0];
+document.getElementById('url').textContent = u;
+document.getElementById('sileo').href = 'sileo://source/' + u;
+document.getElementById('cydia').href = 'cydia://url/https://cydia.saurik.com/api/share#?source=' + u;
+document.getElementById('zebra').href = 'zbra://sources/add/' + u;
+</script>
+</body>
+</html>

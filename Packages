@@ -1,0 +1,15 @@
+Package: com.jfkf.netblockpoc
+Name: NetBlock PoC
+Description: Per-app network blocking proof-of-concept. Validates in-process connect/getaddrinfo/sendto interception with WiFi/cellular distinction. Logs to /tmp/netblockpoc.log.
+Maintainer: jfkf
+Author: jfkf
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.02
+Installed-Size: 172
+Filename: ./com.jfkf.netblockpoc_0.02_iphoneos-arm64e.deb
+Size: 8074
+MD5sum: bcdd38cbffad32a1ad7b7753091ba5e3
+SHA1: e1cf563fb91a87d23442d8cfa6719d50cb70d9c0
+SHA256: 3fcd1173dc9958a4a10e2b6848de7d2c2c03e9efd3b0f787d76d8eb02f510a5f
