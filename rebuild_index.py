@@ -87,14 +87,14 @@ def fh(p):
 p = fh(os.path.join(REPO,"Packages"))
 g = fh(os.path.join(REPO,"Packages.gz"))
 d = time.strftime("%a, %d %b %Y %H:%M:%S UTC", time.gmtime())
-release = f"""Origin: jfkf Repo
-Label: jfkf Repo
+release = f"""Origin:  往右自用源
+Label:  往右自用源
 Suite: stable
 Version: 1.0
 Codename: jfkf
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: jfkf personal jailbreak repo (roothide, iOS 15.4)
+Description:  往右自用源
 Date: {d}
 MD5Sum:
  {p['md5']}             {p['size']} Packages
