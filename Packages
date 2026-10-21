@@ -1,3 +1,19 @@
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Installed-Size: 748
+Filename: ./AmbientBadge-0.1.16-iphoneos-arm64e.deb
+Size: 115174
+MD5sum: 89fa8791e82ef6d645e26963dc6dc539
+SHA1: 790a8aaa05d2eb37bdd0d8db5ccc59d82616f311
+SHA256: 394d808d7c0aefb12c729b0fa119c55ec10ddc54642411f96de902fcc780d466
+
 Package: com.ntm.notifymanager
 Name: 通知管理
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
