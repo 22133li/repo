@@ -13,3 +13,19 @@ Size: 8074
 MD5sum: bcdd38cbffad32a1ad7b7753091ba5e3
 SHA1: e1cf563fb91a87d23442d8cfa6719d50cb70d9c0
 SHA256: 3fcd1173dc9958a4a10e2b6848de7d2c2c03e9efd3b0f787d76d8eb02f510a5f
+
+Package: com.jfkf.notifymanager
+Name: NotifyManager
+Description: Per-app notification management (channels, keyword filter, badge, preview) and per-app network control (WiFi/cellular/off, background block). Includes the NotifyManager app, a SpringBoard engine and an all-app network engine.
+Maintainer: jfkf
+Author: jfkf
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.00
+Installed-Size: 584
+Filename: ./com.jfkf.notifymanager_1.00_iphoneos-arm64e.deb
+Size: 44270
+MD5sum: fef594db45a0854ef2b5f95ae2c2770f
+SHA1: dd9319fc677027d53a3bb6c1458f0b33915a7fb6
+SHA256: 3a1bf9e19413a0be2ac5679fd373b457834ba9cb49c9ae90b0b82f5dbfd1f71e
