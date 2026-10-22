@@ -1,10 +1,107 @@
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Installed-Size: 748
+Filename: ./AmbientBadge-0.1.16-iphoneos-arm64e.deb
+Size: 115174
+MD5sum: 89fa8791e82ef6d645e26963dc6dc539
+SHA1: 790a8aaa05d2eb37bdd0d8db5ccc59d82616f311
+SHA256: 394d808d7c0aefb12c729b0fa119c55ec10ddc54642411f96de902fcc780d466
+
+Package: com.ntm.notifymanager
+Name: 通知管理
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Description: 通知管理隐根版
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.3.38
+Filename: ./NotifyManager_roothide_2.3.38.deb
+Size: 113096
+MD5sum: b148662000900f0f978bd914eea966e2
+SHA1: d346b2c6cf908f9e4d0ac097d6a92bdb095c29b8
+SHA256: 8155a378cf71dc83f77a34bbe242c2765931c5cea10ecf563f4adb99ccf87b96
+
+Package: com.charlieleung.trollopenjb
+Name: TrollOpen
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Description: TrollOpen 隐根版，支持 iOS 15 及以上。
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.7-1
+Installed-Size: 8000
+Filename: ./TrollOpen_roothide_1.3.7-1.deb
+Size: 1099152
+MD5sum: 6f828c46eb56478e497f0d1140fdad8d
+SHA1: 69b2e77a8143132f621a259b732654b64da88c41
+SHA256: da62883ded7c34827630728ee10b537024ef04f1f557e5eca72f32599e594f65
+
+Package: com.crctdd.choicy-whitelist
+Name: Choicy-Whitelist
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5.4-7
+Installed-Size: 684
+Filename: ./com.crctdd.choicy-whitelist_1.5.4-7_iphoneos-arm64e.deb
+Size: 142904
+MD5sum: ac11d194d6d1a174063732ec6e2c25af
+SHA1: 6a6808c86d4c6cebd48a6bf6b7d96f3dc871aaab
+SHA256: 1aa1b4646a19c22e687116e9aa4f2fdd3f8017bc85db0417d76ecd98049f3f7a
+
+Package: com.hx.120
+Name: MotionX
+Depends: mobilesubstrate
+Description: 满血120赫兹、qq172942805
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.2
+Installed-Size: 72
+Filename: ./com.hx.120_2.2_iphoneos-arm64e.deb
+Size: 6020
+MD5sum: f8cdf665bf45e46a18f377da3d456b1c
+SHA1: 4d49b0a1f54f82b6f81809fdaf5bdabe584970ce
+SHA256: 9cc469193bf5e8f5b73fbf21ce4f0c2d2036dbccc6e7040f9dd56f1f79c797fb
+
+Package: com.hx.120
+Name: MotionX
+Depends: mobilesubstrate
+Description: 满血120赫兹、感谢L资助
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 72
+Filename: ./com.hx.120_2.3_iphoneos-arm64e.deb
+Size: 5996
+MD5sum: 55927eebe25a21693fd99bf2a0f288c9
+SHA1: e8d3d2c82d18c4d1bdc0dae3c860637e10778df6
+SHA256: 262241085bd474b84689de430515a1cf82e398a64db87f10ca2feb4212102deb
+
 Package: com.jfkf.netblockpoc
 Name: NetBlock PoC
+Depends: firmware (>= 15.0), mobilesubstrate
 Description: Per-app network blocking proof-of-concept. Validates in-process connect/getaddrinfo/sendto interception with WiFi/cellular distinction. Logs to /tmp/netblockpoc.log.
 Maintainer: jfkf
 Author: jfkf
 Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.02
 Installed-Size: 172
@@ -16,11 +113,11 @@ SHA256: 3fcd1173dc9958a4a10e2b6848de7d2c2c03e9efd3b0f787d76d8eb02f510a5f
 
 Package: com.jfkf.notifymanager
 Name: NotifyManager
+Depends: firmware (>= 15.0), mobilesubstrate
 Description: Per-app notification management (channels, keyword filter, badge, preview) and per-app network control (WiFi/cellular/off, background block). Includes the NotifyManager app, a SpringBoard engine and an all-app network engine.
 Maintainer: jfkf
 Author: jfkf
 Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 1.00
 Installed-Size: 584
@@ -32,11 +129,11 @@ SHA256: 3a1bf9e19413a0be2ac5679fd373b457834ba9cb49c9ae90b0b82f5dbfd1f71e
 
 Package: com.jfkf.notifymanager
 Name: NotifyManager
+Depends: firmware (>= 15.0), mobilesubstrate
 Description: Per-app notification management (channels, keyword filter, badge, preview) and per-app network control (WiFi/cellular/off, background block). Includes the NotifyManager app, a SpringBoard engine and an all-app network engine.
 Maintainer: jfkf
 Author: jfkf
 Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 1.01
 Installed-Size: 628
@@ -45,3 +142,18 @@ Size: 69734
 MD5sum: b6303e9030cc7d9bab006f723947a66b
 SHA1: 14c2c5b6a6611e17d27eaa904f7c991620f5f98d
 SHA256: 02d4135c2be83bff649323ba49be440f055020187974e7452a71c24ad4700c79
+
+Package: com.wcmoments.plugin
+Name: WCMoments
+Description: WCMoments jailbreak tweak
+Maintainer: Local Package
+Section: Tweaks
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.49
+Filename: ./com.wcmoments.plugin_0.6.49_iphoneos-arm64.deb
+Size: 352744
+MD5sum: 888bdbbf3b73ece3e41a673fc2fae5ae
+SHA1: 41a51c75de1a0dca846f03b032f546bcb6cfdb8a
+SHA256: 442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85
+
